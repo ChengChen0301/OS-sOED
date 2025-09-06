@@ -1,16 +1,5 @@
 This package implements policy gradient methods for learning optimal stopping policies in sequential optimal experimental design (sOED), as described in our paper on curriculum learning approaches for joint design and stopping optimization.
 
-sOED/
-├── pg_soed_optimal_stopping.py # Main curriculum learning implementation
-├── pg_soed_fixed_stopping.py   # Fixed stopping baseline
-├── pg_soed_thresholding.py     # Threshold-based stopping
-├── soed.py                      # Base experimental design class
-└── utils.py                     # Neural network utilities
-
-examples/
-├── PG-sOED-LinearGaussianCase.py        # Linear-Gaussian benchmark
-└── PG-sOED-2DConvectionDiffusionCase.py # Sensor movement problem
-
 Key Parameters
 Core Setup:
 
